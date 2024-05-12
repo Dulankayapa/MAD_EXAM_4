@@ -7,18 +7,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".AddNoteActivity">
-
+    tools:context=".UpdateActivity">
 
     <TextView
-        android:id="@+id/addNoteHeading"
+        android:id="@+id/editNoteHeading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="16dp"
         android:fontFamily="sans-serif"
-        android:text="@string/add_note"
+        android:text="Edit Note"
         android:textColor="#283CAC"
         android:textSize="25sp" />
 
@@ -29,17 +28,18 @@
         android:layout_alignTop="@id/addNoteHeading"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="15dp"
-        app:srcCompat="@drawable/baseline_done_24" />
+        app:srcCompat="@drawable/baseline_edit_24" />
+
 
     <EditText
-        android:id="@+id/titleEditText"
+        android:id="@+id/updatetitleEditText"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="wrap_content"
         android:hint="Enter the title"
         android:padding="12dp"
         android:textSize="20sp"
-        android:layout_below="@id/addNoteHeading"
+        android:layout_below="@id/editNoteHeading"
         android:background="@drawable/border"
         android:layout_marginTop="16dp"
         android:maxLines="1"
@@ -47,12 +47,12 @@
 
     <EditText
 
-        android:id="@+id/contentEditText"
+        android:id="@+id/updatecontentEditText"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/titleEditText"
-
+        android:layout_below="@id/updatetitleEditText"
+        android:layout_marginTop="9dp"
         android:background="@drawable/border"
         android:fontFamily="@font/poppins"
         android:gravity="top"

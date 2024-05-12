@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">lab test 4</string>
     <string name="add_note">Add Note.</string>
+    <string name="edit_note">Edit Note</string>
     <string name="title">Title</string>
     <string name="content">Content</string>
 </resources>
