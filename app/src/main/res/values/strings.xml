@@ -6,4 +6,6 @@
     <string name="content">Content</string>
     <string name="start">start</string>
     <string name="my_note">My Note</string>
+    <string name="enter_the_title">Enter the title</string>
+    <string name="enter_the_description">Enter the description</string>
 </resources>

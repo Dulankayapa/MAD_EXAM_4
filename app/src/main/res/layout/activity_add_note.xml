@@ -36,7 +36,7 @@
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:hint="Enter the title"
+        android:hint="@string/enter_the_title"
         android:padding="12dp"
         android:textSize="23sp"
         android:layout_below="@id/addNoteHeading"
@@ -56,7 +56,7 @@
         android:background="@drawable/border"
         android:fontFamily="@font/poppins"
         android:gravity="top"
-        android:hint="Enter the description"
+        android:hint="@string/enter_the_description"
         android:padding="12dp"
         android:textSize="20sp" />
 
