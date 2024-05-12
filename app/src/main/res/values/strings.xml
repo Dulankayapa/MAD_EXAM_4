@@ -4,4 +4,6 @@
     <string name="edit_note">Edit Note</string>
     <string name="title">Title</string>
     <string name="content">Content</string>
+    <string name="start">start</string>
+    <string name="my_note">My Note</string>
 </resources>

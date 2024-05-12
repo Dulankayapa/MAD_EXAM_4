@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".UpdateActivity">
+    tools:context=".UpdateNoteActivity">
 
     <TextView
         android:id="@+id/editNoteHeading"
@@ -22,13 +22,13 @@
         android:textSize="25sp" />
 
     <ImageView
-        android:id="@+id/saveButton"
+        android:id="@+id/updatesaveButton"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_alignTop="@id/addNoteHeading"
+        android:layout_alignTop="@id/editNoteHeading"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="15dp"
-        app:srcCompat="@drawable/baseline_edit_24" />
+        app:srcCompat="@drawable/baseline_done_24" />
 
 
     <EditText
